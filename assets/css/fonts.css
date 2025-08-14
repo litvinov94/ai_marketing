@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Actor';
+    src: url(../fonts/Actor-Regular.woff), format(woff);
+}
+
+@font-face {
+    font-family: 'Actor';
+    src: url(../fonts/Actor-Regular.woff2), format(woff2);
+}
+
+@font-face {
+    font-family: 'AI_Nile';
+    src: url(../fonts/Al-Nile.woff), format(woff);
+}
+
+@font-face {
+    font-family: 'AI_Nile';
+    src: url(../fonts/Al-Nile.woff2), format(woff2);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.woff), format(woff);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.woff2), format(woff2);
+}

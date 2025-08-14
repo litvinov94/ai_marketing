@@ -2,7 +2,87 @@
 @import url('./fonts.css');
 
 :root {
-    
+    --main-bg: #000000;
+    --second-bg: #ffffff;
+    --search-bg: #272F43;
+
+    --main-color: #ffffff;
+    --accent-color: #0075FF;
+    --link-color: #F8F7F7;
+
+    --main-fonts: 'Montserrat';
+    --second-fonts: 'Actor';
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--main-color);
+
+    font-family: var(--main-fonts);
+    font-weight: 400;
+}
+
+a {
+    color: var(--link-color);
+}
+
+.container {
+    max-width: 1470px;
+
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Шапка */
+
+.header {
+    padding: 25px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__list-item {
+    padding: 9px;
+
+    font-family: var(--second-fonts);
+}
+
+.header__action {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form__search {
+    width: 240px;
+    height: 34px;
+
+    padding: 7px 11px;
+
+    background-color: var(--search-bg);
+    border-radius: 5px;
+}
+
+.form__search::placeholder {
+    color: #C0C3C9;
+}
+
+.header__action-signin, .header__action-signup  {
+    padding: 8px 12px;
+}
+
+.header__action-signup {
+    border: 1px solid #9E9C9C;
+    border-radius: 7px;
 }
 
 
