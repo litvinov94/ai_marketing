@@ -1,6 +1,8 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 
+/* Общие стили */
+
 :root {
     --main-bg: #000000;
     --second-bg: #ffffff;
@@ -12,6 +14,7 @@
 
     --main-fonts: 'Montserrat';
     --second-fonts: 'Actor';
+    --foonts: 'AI_Nile';
 }
 
 body {
@@ -31,6 +34,17 @@ a {
 
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 219px;
+    height: 46px;
+    border-radius: 23px;
+    border: 1px solid red;
 }
 
 /* Шапка */
@@ -85,6 +99,7 @@ a {
     border-radius: 7px;
 }
 
+/* Wellcome блок */
 
 
 
